@@ -1,7 +1,0 @@
-snapchat-proxy.appspot.com
-gtq6.sct.sc-prod.net
-aw.sc-cdn.net
-gcs.sc-cdn.net
-topic-sticker-vending.snapchat.com
-us-central1-gcp.api.snapchat.com
-www.facebook.com
