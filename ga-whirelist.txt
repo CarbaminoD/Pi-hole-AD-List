@@ -1,0 +1,25 @@
+# GA4 Measurement & Collection
+@@||google-analytics.com^
+@@||analytics.google.com^
+@@||www.google-analytics.com^
+@@||www.googletagmanager.com^
+@@||gtag/js^
+@@||gtag/js?id=*
+
+# GTM (Google Tag Manager)
+@@||googletagmanager.com^
+@@||www.googletagmanager.com^
+@@||googletagservices.com^
+
+# Event queue & Realtime logging
+@@||www.google-analytics.com/g/collect
+@@||analytics.google.com/g/collect
+@@||region1.google-analytics.com
+@@||region1.analytics.google.com
+
+# Consent mode (หากใช้งาน CMP)
+@@||consent.google.com^
+@@||fundingchoicesmessages.google.com^
+
+# Measurement protocol (ถ้าใช้ส่ง event ผ่าน API)
+@@||google-analytics.com/mp/collect
