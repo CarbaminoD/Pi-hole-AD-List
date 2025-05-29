@@ -1,0 +1,21 @@
+# Firebase domains
+@@||firebaseio.com^
+@@||firebaseapp.com^
+@@||cloudfunctions.net^
+@@||firebase.googleapis.com^
+@@||firebaselogging-pa.googleapis.com^
+@@||firebaseinstallations.googleapis.com^
+@@||firebaseremoteconfig.googleapis.com^
+@@||firebase-settings.crashlytics.com^
+@@||crashlytics.com^
+@@||app-measurement.com^
+
+# Google APIs & assets used by Firebase
+@@||googleapis.com^
+@@||gstatic.com^
+@@||googleusercontent.com^
+@@||google.com^
+@@||accounts.google.com^
+@@||apis.google.com^
+@@||oauth2.googleapis.com^
+@@||fcm.googleapis.com^
