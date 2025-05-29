@@ -1,0 +1,20 @@
+# Ivanti VPN / Pulse Secure related domains
+@@||pulsesecure.net^
+@@||ivanti.com^
+@@||ivanticloud.com^
+
+# Certificate validation (DigiCert, Microsoft, etc.)
+@@||digicert.com^
+@@||crl3.digicert.com^
+@@||crl4.digicert.com^
+@@||ocsp.digicert.com^
+@@||msocsp.com^
+
+# Microsoft Login (in case of Azure AD or SSO)
+@@||login.microsoftonline.com^
+@@||secure.aadcdn.microsoftonline-p.com^
+@@||aadcdn.msauth.net^
+@@||aadcdn.msftauth.net^
+
+# OIC Organization VPN domain
+@@||wfa.oic.or.th^
