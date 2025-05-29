@@ -1,0 +1,51 @@
+# Google core domains
+@@||google.com^
+@@||googleapis.com^
+@@||gstatic.com^
+@@||googleusercontent.com^
+@@||clients.google.com^
+@@||clients6.google.com^
+@@||accounts.google.com^
+@@||apis.google.com^
+@@||ssl.gstatic.com^
+@@||lh3.googleusercontent.com^
+@@||www.googleapis.com^
+
+# Gmail
+@@||mail.google.com^
+@@||smtp.gmail.com^
+@@||imap.gmail.com^
+@@||pop.gmail.com^
+@@||mail-attachment.googleusercontent.com^
+
+# Google Drive
+@@||drive.google.com^
+@@||docs.google.com^
+@@||lh3.googleusercontent.com^
+@@||docs.googleusercontent.com^
+
+# Google Meet
+@@||meet.google.com^
+@@||meetings.googleapis.com^
+@@||m.google.com^
+@@||talkgadget.google.com^
+@@||video.googleapis.com^
+
+# Google Calendar
+@@||calendar.google.com^
+@@||calendar.googleusercontent.com^
+
+# Google Chat
+@@||chat.google.com^
+@@||hangouts.google.com^
+@@||chat-pa.clients6.google.com^
+
+# Google Sheets/Slides/Forms
+@@||sheets.google.com^
+@@||slides.google.com^
+@@||forms.google.com^
+
+# Authentication / OAuth
+@@||oauth2.googleapis.com^
+@@||accounts.youtube.com^
+@@||securetoken.googleapis.com^
