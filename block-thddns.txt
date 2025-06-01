@@ -1,0 +1,5 @@
+! Title: Custom Blocklist - Block thddns.net
+! Description: Blocks the thddns.net domain
+! Last updated: 2025-06-01
+||thddns.net^
+||www.thddns.net^
