@@ -1,1 +1,7 @@
-
+.apple.com
+.icloud.com
+.itunes.apple.com
+.apis.apple.com
+.push.apple.com
+.g.aaplimg.com
+.apple-cloudkit.com
