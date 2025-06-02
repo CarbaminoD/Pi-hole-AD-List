@@ -5,3 +5,5 @@
 .push.apple.com
 .g.aaplimg.com
 .apple-cloudkit.com
+iadsdk.apple.com
+metrics.icloud.com
