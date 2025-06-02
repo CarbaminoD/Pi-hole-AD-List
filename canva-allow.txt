@@ -1,0 +1,12 @@
+@@||canva.com^
+@@||cdn.canva.com^
+@@||static.canva.com^
+@@||marketplace.canva.com^
+@@||api.canva.com^
+@@||sentry.canva.com^
+@@||identity.canva.com^
+@@||fonts.canva.com^
+@@||upload.canva.com^
+@@||brandfetch.io^
+@@||googleapis.com^$domain=canva.com
+@@||canva-apps.com^
