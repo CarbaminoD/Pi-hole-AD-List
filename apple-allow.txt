@@ -1,9 +1,15 @@
-||apple.com^
-||icloud.com^
-||itunes.apple.com^
-||apis.apple.com^
-||push.apple.com^
-||g.aaplimg.com^
-||apple-cloudkit.com^
-||iadsdk.apple.com^
-||metrics.icloud.com^
+# Apple services allowlist for AdGuard Home
+# Fixed 2026-07-30 — rules were missing the "@@" prefix, which in AdGuard
+# syntax means "block", not "allow". As written before this fix, this file
+# was actively BLOCKING apple.com/icloud.com/push.apple.com etc. for anyone
+# it applied to (breaking iCloud, App Store, and push notifications) —
+# the opposite of the filename's intent.
+@@||apple.com^
+@@||icloud.com^
+@@||itunes.apple.com^
+@@||apis.apple.com^
+@@||push.apple.com^
+@@||g.aaplimg.com^
+@@||apple-cloudkit.com^
+@@||iadsdk.apple.com^
+@@||metrics.icloud.com^
