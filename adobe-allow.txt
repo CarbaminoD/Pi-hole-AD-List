@@ -1,39 +1,12 @@
-@@||adobe.com^
-@@||adobe.io^
-@@||adobecc.com^
-@@||adobecces.com^
-@@||adobeccstatic.com^
-@@||adobedtm.com^
-@@||adobeexchange.com^
-@@||adobegenuine.com^
-@@||adobegov.com^
-@@||adobe-identity.com^
-@@||adobejanus.com^
-@@||adobelogin.com^
-@@||adobedc.net^
-@@||adobeoobe.com^
-@@||adobeprojectm.com^
-@@||adobesc.com^
-@@||adobe-services.com^
-@@||adobess.com^
-@@||adobesunbreak.com^
-@@||adobetag.com^
-@@||behance.net^
-@@||ftcdn.net^
-@@||typekit.com^
-@@||typekit.net^
-@@||slp-statics.astockcdn.net^
-@@||s3.amazonaws.com^
-@@||s3.amazonaws.com/tron-ffc-icons-prod/
-@@||elb.amazonaws.com^$domain=gocart-web-prod
-@@||kinesisvideo.amazonaws.com^
-@@||s3-accelerate.amazonaws.com^
-@@||cloudfront.net^
-@@||firebase-settings.crashlytics.com^
-@@||firebase.googleapis.com^
-@@||speech.platform.bing.com^$websocket
-@@||arkoselabs.com^
+# Adobe Creative Cloud allowlist for AdGuard Home
+# Purpose: unblock Adobe CC cloud-save/sync (cc-api-data.adobe.io etc.) without
+# fully disabling AdGuard filtering for the client.
+# Deduplicated 2026-07-30 — was 3x repeated in this file, cleaned to one set.
+# Removed: subdomain-specific rules already covered by their base ||domain^ rule,
+# and one unrelated leftover entry (elb.amazonaws.com scoped to "gocart-web-prod",
+# not an Adobe domain — looked like it was copied in from a different allowlist).
 
+# --- Adobe core + sub-brands ---
 @@||adobe.com^$important
 @@||adobe.io^$important
 @@||adobecc.com^$important
@@ -54,77 +27,27 @@
 @@||adobess.com^$important
 @@||adobesunbreak.com^$important
 @@||adobetag.com^$important
-@@||behance.net^$important
-@@||ftcdn.net^$important
-@@||typekit.com^$important
-@@||typekit.net^$important
-@@||slp-statics.astockcdn.net^$important
-@@||s3.amazonaws.com^$important
-@@||s3.amazonaws.com/tron-ffc-icons-prod/$important
-@@||elb.amazonaws.com^$important
-@@||kinesisvideo.amazonaws.com^$important
-@@||s3-accelerate.amazonaws.com^$important
-@@||cloudfront.net^$important
-@@||firebase-settings.crashlytics.com^$important
-@@||firebase.googleapis.com^$important
-@@||speech.platform.bing.com^$websocket,$important
-@@||arkoselabs.com^$important
 
-@@||adobe.com^$important
-@@||adobe.io^$important
-@@||adobecc.com^$important
-@@||adobecces.com^$important
-@@||adobeccstatic.com^$important
-@@||adobedtm.com^$important
-@@||adobeexchange.com^$important
-@@||adobegenuine.com^$important
-@@||adobegov.com^$important
-@@||adobe-identity.com^$important
-@@||adobejanus.com^$important
-@@||adobelogin.com^$important
-@@||adobedc.net^$important
-@@||adobeoobe.com^$important
-@@||adobeprojectm.com^$important
-@@||adobesc.com^$important
-@@||adobe-services.com^$important
-@@||adobess.com^$important
-@@||adobesunbreak.com^$important
-@@||adobetag.com^$important
-@@||behance.net^$important
-@@||ftcdn.net^$important
-@@||typekit.com^$important
-@@||typekit.net^$important
-@@||slp-statics.astockcdn.net^$important
-
-@@||s3.amazonaws.com^$important
-@@||s3.amazonaws.com/tron-ffc-icons-prod/$important
-@@||elb.amazonaws.com^$important
-@@||kinesisvideo.amazonaws.com^$important
-@@||s3-accelerate.amazonaws.com^$important
-
-@@||cloudfront.net^$important
-@@||firebase-settings.crashlytics.com^$important
-@@||firebase.googleapis.com^$important
-@@||speech.platform.bing.com^$websocket,$important
-@@||arkoselabs.com^$important
-
-@@||adobeid-na1.services.adobe.com^$important
-@@||ims-na1.adobelogin.com^$important
-@@||cc-api-storage.adobe.io^$important
-@@||cc-collaboration.adobe.io^$important
-@@||assets.adobe.com^$important
-@@||collaboration.adobe.com^$important
-@@||shared-assets.adobe.com^$important
-@@||libraries.adobe.com^$important
-@@||xpui.adobe.com^$important
-@@||xpui-api.adobe.com^$important
-@@||use.typekit.net^$important
+# --- Adobe domains on other base names (not covered by rules above) ---
 @@||adobe.com.edgesuite.net^$important
-@@||lcs-cops.adobe.io^$important
-@@||cdn.adobe.com^$important
-@@||genuine.adobe.com^$important
-@@||lm.licenses.adobe.com^$important
 @@||adobe.demdex.net^$important
-@@||adobe.tt.omtrdc.net^$important
-@@||adobe.sc.omtrdc.net^$important
 @@||omtrdc.net^$important
+
+# --- Fonts / stock / libraries used by Adobe apps ---
+@@||behance.net^$important
+@@||ftcdn.net^$important
+@@||typekit.com^$important
+@@||typekit.net^$important
+@@||slp-statics.astockcdn.net^$important
+
+# --- Shared cloud infra Adobe CC relies on ---
+# NOTE: these unblock more than just Adobe traffic (shared multi-tenant
+# platforms) — kept per 2026-07-30 decision to preserve existing behavior.
+@@||s3.amazonaws.com^$important
+@@||kinesisvideo.amazonaws.com^$important
+@@||s3-accelerate.amazonaws.com^$important
+@@||cloudfront.net^$important
+@@||firebase-settings.crashlytics.com^$important
+@@||firebase.googleapis.com^$important
+@@||speech.platform.bing.com^$websocket,$important
+@@||arkoselabs.com^$important
