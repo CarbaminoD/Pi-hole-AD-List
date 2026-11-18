@@ -1,0 +1,20 @@
+! Title: True ID box — ad domains not covered by AdGuard DNS filter / OISD
+! Description: TrueID's own ad-insertion domains seen from the True ID Android TV box
+! Applies to: home AdGuard Home (pi-choo 192.168.100.3) — client 192.168.100.103
+! Last updated: 2026-11-19
+!
+! Google/PubMatic ad servers on this box are already blocked by AdGuard DNS filter + OISD Big
+! (verified 2026-11-18 by A/B test: protection off -> ad shown; on -> no ad).
+!
+! DO NOT add:
+!   *.stm.trueid.net                         stream CDN (cdnNNN, nkd, hccu, kdcid, epgthumb) — channels stop playing
+!   graph / iam / *-customer-api.trueid.net  login, subscription, content
+!   *dmpapi*.trueid.net                      first-party audience data, may be tied to content loading
+!   imasdk.googleapis.com                    left out on purpose: some players wait for it and fail to start
+!
+! Rollback: disable this list in AdGuard (Filters > DNS blocklists) — takes effect immediately.
+
+! Added 2026-11-19 — passed AdGuard while the owner still saw occasional ads (query log 2026-11-18 21:58 -> 2026-11-19 01:25)
+! Not yet verified that channels keep playing with these blocked — test at the TV.
+||ads-dai.trueid.net^
+||imp-dai.trueid.net^
